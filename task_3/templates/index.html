@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Register for domain</h1>
+<form action="/register" method="post">
+    <input name="Nickname" placeholder="Nickname" type="text"/>
+    <input name="bearer_token" placeholder="Bearer token" type="text"/>
+    <input type="submit" value="Register"/>
+</form>
+{% endblock %}
